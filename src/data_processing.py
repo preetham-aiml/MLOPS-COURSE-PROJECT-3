@@ -130,6 +130,4 @@ if __name__=="__main__":
     data_processor.run()
 
     print(data_processor.retrive_feature_redis_store(entity_id=332))
-        
-
 

@@ -40,6 +40,3 @@ class RedisFeatureStore:
         ### entity entity_id feature
         entity_ids = [key.split(':')[1] for key in keys ]
         return entity_ids
-
-
-    
